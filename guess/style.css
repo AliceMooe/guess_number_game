@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background: #603813; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+div {
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 14px;
+}
+input[type="number"] {
+  border: none;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.btn-guess {
+  margin: 10px 0;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 6px 12px;
+  border: 2px solid #e8dcdc;
+  color: #e8dcdc;
+  border-radius: 8px;
+}
+.btn-restart {
+  margin: 10px 0 10px 300px;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 6px 12px;
+  border: 2px solid #e8dcdc;
+  color: #e8dcdc;
+  border-radius: 8px;
+}
+
+.wrong {
+  border: 3px solid #151414;
+}
+.true {
+  border: 4px solid #a9b4a9;
+}
